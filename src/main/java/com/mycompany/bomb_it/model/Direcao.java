@@ -1,4 +1,4 @@
-package com.mycompany.bomb_it;
+package com.mycompany.bomb_it.model;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
