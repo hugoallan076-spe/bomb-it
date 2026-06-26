@@ -34,5 +34,8 @@ public abstract class Personagem extends EntidadesMoveis {
         this.qtdBombas = qtdBombas;
     }
     
-    public void SoltarBomba(){}
+    public void SoltarBomba(Fase fase){
+        int qtdBombas = this.qtdBombas;
+        if(qtdBombas > 0){}
+    }
 }
