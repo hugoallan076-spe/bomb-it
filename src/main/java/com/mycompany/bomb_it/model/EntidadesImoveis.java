@@ -12,18 +12,14 @@ public class EntidadesImoveis {
     int x; //posição
     int y; //posição
     int vida;
-    int largura;
-    int altura;
     boolean ativo; //se a entidade ainda existe no mapa true ou false
     
     
     
-    public EntidadesImoveis(int x, int y, int vida, int largura, int altura) {
+    public EntidadesImoveis(int x, int y, int vida) {
         this.x = x;
         this.y = y;
         this.vida = vida;
-        this.largura = largura;
-        this.altura = altura;
         this.ativo = true;
     }
 
@@ -50,22 +46,6 @@ public class EntidadesImoveis {
 
     public void setVida(int vida) {
         this.vida = vida;
-    }
-
-    public int getLargura() {
-        return largura;
-    }
-
-    public void setLargura(int largura) {
-        this.largura = largura;
-    }
-
-    public int getAltura() {
-        return altura;
-    }
-
-    public void setAltura(int altura) {
-        this.altura = altura;
     }
 
     public boolean isAtivo() {

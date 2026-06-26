@@ -12,27 +12,19 @@ import com.mycompany.bomb_it.*;
  */
 public abstract class Bloco extends EntidadesImoveis {
 
-    String tipo; // tipo do bloco
+   public Bloco(int x, int y, int vida) {
+        super(x, y, vida); 
+    }
     
+    // Como é uma classe abstrata e não tem propriedades exclusivas no momento, 
+    // os métodos de colisão ou destruição serão definidos nas filhas.
+}
 
-    public Bloco(int x, int y, int vida, int largura, int altura, String tipo, ) {
-        super(x, y, vida, largura, altura); 
-        this.tipo = tipo;
-        
-    }
-
-    public String getTipo() {
-        return tipo;
-    }
-
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
-    }
 
   
     // sobreescrever metodo
     //@Override
     
-}    
+    
 
-}
+
